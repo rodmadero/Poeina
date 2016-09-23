@@ -1,0 +1,182 @@
+/***********************
+GENERAL 
+***********************/
+
+body {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+  max-width: 100%;
+    clear:both;
+}
+
+li {
+    list-style: none;
+}
+
+/***********************
+NAVBAR
+***********************/
+
+.navbar {
+    height: 65px;
+/*    border-bottom: 5px solid rgba(255, 255, 255, 0.5);*/
+}
+
+.navbar-nav li a {
+    line-height: 39px;
+    padding-right: 80px;
+    padding-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #908060;
+    transition: 0.3s;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #000;
+    text-shadow: -0.5px 1px 1px #ccc;
+    transition: 0.3s ease;
+}
+
+/***********************
+BUTTONS
+***********************/
+
+.navbar button {
+    border: none;
+    background: transparent;
+    margin-top: 15px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus    
+{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+    height: 3px;
+    width: 30px;
+    margin-top: 4px;
+}
+
+
+/***********************
+JUMBOTRON
+***********************/
+
+
+.jumbotron {
+    position: relative;
+    background: url('../img/pojumbo2.jpg') no-repeat center center;
+    min-height: 726px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+
+.brand {
+    padding-top: 150px;
+    font-family: 'Josefin Sans';
+    text-shadow: 0 4px 3px #c9cab7; 
+    
+}
+
+
+/***********************
+SUB HEADING EMAIL FORM
+***********************/
+
+.sub-heading {
+    background-color: black;
+    padding: 12px 0;
+    border-top: 1px solid #999  ;
+    
+    
+    
+}
+
+#tuned {
+    padding: 30px;
+    color: #bbb;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+/***********************
+LIFE ON THE ROAD
+***********************/
+
+.section-three {
+    height: 200px; 
+}
+
+.road {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 73px;
+}
+
+/***********************
+GALLERY
+***********************/
+
+.gallery {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+/***********************
+FOOTER
+***********************/
+
+.footer {
+    background: #000;
+    padding: 10px 0;
+    height: 100%;
+}
+
+.footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 20px;
+/*    border-right: 1px solid #70726F;*/
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+/*
+.footer a:first-child {
+    border-left: 1px solid #70726F;
+}
+*/
+
+.footer a:hover {
+    color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+@media only screen and (max-width : 768px) {
+    #tuned {
+        padding: 0;
+    }
+}
+
+
+
+
+

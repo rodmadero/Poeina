@@ -1,0 +1,33 @@
+/*Uncollapsed navbar*/
+
+@media only screen and (max-width : 768px) {
+    .navbar {
+        height: auto;
+    }
+    
+    .navbar-collapse {
+    text-align: center;
+    background-color:#fff;
+    }
+    
+    .navbar-nav li a {
+        border-bottom: 1px solid #eee;
+    }
+    
+     .navbar-nav {
+        margin: 0px;
+    }
+    
+    .form-group {
+    max-width: 290px;
+    margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width : 481px) {
+    
+    .section-four {
+        margin-top: 50px;
+    }
+}
