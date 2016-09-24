@@ -70,11 +70,11 @@ BUTTONS
 
 
 /***********************
-JUMBOTRON
+JUMBOTRON-ONE
 ***********************/
 
 
-.jumbotron {
+.jumbo-one {
     position: relative;
     background: url('../img/pojumbo2.jpg') no-repeat center center;
     min-height: 726px;
@@ -90,7 +90,6 @@ JUMBOTRON
     
 }
 
-
 /***********************
 SUB HEADING EMAIL FORM
 ***********************/
@@ -98,7 +97,7 @@ SUB HEADING EMAIL FORM
 .sub-heading {
     background-color: black;
     padding: 12px 0;
-    border-top: 1px solid #999  ;
+    border-bottom: 2px solid #fa587c;
     
     
     
@@ -135,7 +134,49 @@ GALLERY
     margin-bottom: 100px;
 }
 
+/***********************
+JUMBOTRON-TWO
+***********************/
 
+
+
+.jumbo-two {
+    position: relative;
+    background: url('../img/poitunes.jpg') no-repeat center center;
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    margin-bottom: 0px;
+}
+
+
+.itunes-text {
+    min-width: 200px;
+    min-height: 100px;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 5px;
+    position: absolute;
+    margin-right: 50px;
+    border: 2px solid #fa587c;
+    text-align: center;
+    margin-top: 32px;
+    transition: 1s ease;
+}
+
+.itunes-text:hover {
+    background-color: #fff;
+    border: 2px solid #4c7da9;
+    transition: .6s ease;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#happy-whore {
+    font-family: 'Shadows into light', sans-serif;
+}
 
 
 
@@ -157,12 +198,6 @@ FOOTER
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
-
-/*
-.footer a:first-child {
-    border-left: 1px solid #70726F;
-}
-*/
 
 .footer a:hover {
     color: white;
