@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head> 
-        <title>Poeina|The one & only</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Hind+Guntur|Open+Sans|Raleway|Josefin+Sans|Shadows+Into+Light" rel="stylesheet">
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/lightbox.css">
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+      
+      <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" ></script>
+      <title>Poeina|The one and only</title>
+      <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link href="https://fonts.googleapis.com/css?family=Hind+Guntur|Open+Sans|Raleway|Josefin+Sans|Shadows+Into+Light" rel="stylesheet">
+      <link rel="stylesheet" href="css/lightbox.css">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+      <script>"https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/angular2-all-testing.umd.dev.js"</script>
+      <script>"https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.5.8/angular-resource.js"</script>
+      <script>"https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/router.min.js"</script>
+      
+      <script src="js/custom.js"></script>
   </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-fixed-top navbar-default">
+  <body>   
+      <header>
+        <nav class="navbar navbar-fixed-top navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navToggle">
@@ -25,16 +32,17 @@
           </div>
           <div class="collapse navbar-collapse" id="navToggle">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">HOME<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">MUSIC</a></li>
-                <li><a href="#">BIO</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#home" class="slide-section">HOME<span class="sr-only">(current)</span></a></li>
+                <li><a href="#pics">PICS</a></li>
+                <li><a href="#music">MUSIC</a></li>
+                <li><a href="#bio">BIO</a></li>
+                <li><a href="#tour">TOUR</a></li>
               </ul>
           </div>
         </div>
       </nav>
       </header>
-      <section class="jumbotron jumbo-one text-center">
+      <section class="jumbotron jumbo-one text-center" id="home">
         <div class="container">
           <h1 class="brand">POEINA</h1>
         </div>
@@ -49,18 +57,18 @@
           </div>
          </form>
       </div>
-      <div class="container-fluid section-three">
+      <div class="container-fluid section-three" id="pics">
         <h1 class="road">LIFE ON THE ROAD</h1>
       </div>
       <div class="container section-four">
         <div class="gallery">
           <div class="row">
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal1.jpg" data-title="Playing at an art show" data-lightbox="road"><img src="img/pics/gal1.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal1.jpg" data-title="Live in Portland" data-lightbox="road"><img src="img/pics/gal1.jpg" width="200px" class="img-thumbnail"/>
               </a>
             </div>    
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal20.jpg" data-title="Spending time with family" data-lightbox="road"><img src="img/pics/gal20.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal20.jpg" data-title="With friends in San Francisco" data-lightbox="road"><img src="img/pics/gal20.jpg" width="200px" class="img-thumbnail"/>
               </a>
             </div>  
             <div class="clearfix visible-xs"></div>
@@ -69,72 +77,158 @@
               </a>
             </div>
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal3.jpg" data-title="Carnival!" data-lightbox="road"><img src="img/pics/gal3.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal3.jpg" data-title="Playing at an art show" data-lightbox="road"><img src="img/pics/gal3.jpg" width="200px" class="img-thumbnail"/>
               </a>  
             </div> 
         
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal4.jpg" data-title="Performing with Unorthodox Methods" data-lightbox="road"><img src="img/pics/gal4.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal4.jpg" data-title="On a boat!" data-lightbox="road"><img src="img/pics/gal4.jpg" width="200px" class="img-thumbnail"/>
               </a>
             </div> 
             
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal13.jpg" data-title="The Hotel California guys" data-lightbox="road"><img src="img/pics/gal13.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal13.jpg" data-title="In Los Angeles" data-lightbox="road"><img src="img/pics/gal13.jpg" width="200px" class="img-thumbnail"/>
               </a>
             </div>
               
               <div class="clearfix visible-md"></div>
               <div class="clearfix visible-sm"></div>
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal18.jpg" data-title="What's this guy sayin' now?" data-lightbox="road"><img src="img/pics/gal18.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal18.jpg" data-title="In Culver City" data-lightbox="road"><img src="img/pics/gal18.jpg" width="200px" class="img-thumbnail"/>
               </a>
             </div>    
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal8.jpg" data-title="Making friends on the road" data-lightbox="road"><img src="img/pics/gal8.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal8.jpg" data-title="With the UXM hat" data-lightbox="road"><img src="img/pics/gal8.jpg" width="200px" class="img-thumbnail"/>
               </a>  
             </div> 
             <div class="clearfix visible-lg"></div>
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal9.jpg" data-title="On a boat!" data-lightbox="road"><img src="img/pics/gal9.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal9.jpg" data-title="Carnival" data-lightbox="road"><img src="img/pics/gal9.jpg" width="200px" class="img-thumbnail"/>
               </a>
             </div>    
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal10.jpg" data-title="With the UXM hat" data-lightbox="road"><img src="img/pics/gal10.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal10.jpg" data-title="UXM photo shoot" data-lightbox="road"><img src="img/pics/gal10.jpg" width="200px" class="img-thumbnail"/>
               </a>
             </div>
               <div class="clearfix visible-xs"></div>
             <div class="col-xs-6 col-sm-4 col-lg-3">
-              <a href="img/pics/gal11.jpg" data-title="The merch table!" data-lightbox="road"><img src="img/pics/gal11.jpg" width="200px" class="img-thumbnail"/>
+              <a href="img/pics/gal11.jpg" data-title="The Junkyard Mermaid" data-lightbox="road"><img src="img/pics/gal11.jpg" width="200px" class="img-thumbnail"/>
               </a>
             </div>    
             <div class="col-xs-6 col-sm-4 col-lg-3">
               <a href="img/pics/gal12.jpg" data-title="Giving it everything" data-lightbox="road"><img src="img/pics/gal12.jpg" width="200px" class="img-thumbnail"/>
               </a>  
             </div> 
-        </div> <!--row 3 ends-->
-      </div>
-     </div> 
-     <div class="jumbotron jumbo-two">
+         </div> <!--row 3 ends-->
+       </div>
+      </div> 
+      <div class="jumbotron jumbo-two" id="music">
        <div class="container text-center">
          <div class="row">
              <div class="itunes-text col-xs-4 col-xs-offset-1">
+               <a href="https://geo.itunes.apple.com/us/album/happy-whore/id868908403?mt=1&app=music">
                <h3>Listen to <span id="happy-whore">HAPPY WHORE</span></h3>
                <div class="itunes-logo">            
                 <a href="https://geo.itunes.apple.com/us/album/happy-whore/id868908403?mt=1&app=music" style="display:inline-block;overflow:hidden;background:url(//tools.applemusic.com/assets/shared/badges/en-us/music-lrg.svg) no-repeat;width:115px;height:40px;"></a> 
                 </div>
+                </a>   
              </div>
          </div>  
        </div>
-     </div> 
-     <footer class="footer">
-    <div class="container text-center">
-        <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-        <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-        <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-        <a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
-    </div>
-</footer> 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script> 
-    <script src="js/lightbox.js"></script> 
-  </body>
+      </div> 
+      <section class="container text-center bio-text" id="bio">
+          <span class="border"></span>
+          <div class="sub-heading-bio">
+            <h1>BIO</h1>
+                <p>Poeina Suddarth has been inspired by and closely knit into the Northwest hip hop community yet her solo music has been more often compared with Janis Joplin, Amy Winehouse and Billie Holiday.</p>
+
+                <p>  Poeina was a music teacher, studio musician, and a community volunteer organizer. During a tour where she was a vocalist and hype girl for Northwest hip hop group <a href="https://www.facebook.com/Dark-Time-Sunshine-195604013646/">Dark Time Sunshine</a> in April 2010, rapper Onry Ozzborn came up to her before the show and said, “now is the time, you are a star girl. You need to get yourself your own stage”. It was those words that inspired her to go home and begin to launch her career as a songwriter & bandleader.
+                </p>    
+
+                <p>Poeina’s solo music first hit the stage during her original musical production, <a href="https://www.facebook.com/bedroomshow?ref=hl">The Bedroom Show</a>, in May of 2011. The show was based on the theme from her song “White Mountain Beauty” that says, “with the thunder brings the rain in the canyons echoing like the time I lost my faith and still survived”. The bedroom show was written, produced
+                and performed by Poeina Suddarth with the support from the Northwestern community, and 30+ cast and
+                crew members.
+                </p>
+                <p>The whole of 2013 Poeina toured the Planes, Trains, & automobiles tour. Without a tour vehicle Poeina hitchhiked, rideshared, and took public transportation around the country. In each city Poeina met up with her Lucid Dreamers for a rehearsal before the show. The Lucid Dreamers are a pool of 30+ west coast musicians who are armed and ready to join the stage to back up Poeina. The Lucid Dreamers include, strings, horns, percussion, vocals, dancers and visual artists.
+                </p>
+
+                <p>After concluding a European tour with Poeina & the Lucid Dreamers, Poeina is taking a break from full time touring to record a new solo album as well as working on releasing new music with her electronic music project <a href="https://www.facebook.com/unorthodoxmethods/">Unorthodox Methods.</a>
+                </p>
+          </div>
+          <span class="border"></span>
+      </section>
+      <section class="container-fluid table-tour" id="tour">
+        <div class="table-responsive">
+          <table class="table">
+            <h1 class="text-center">TOUR</h1>
+            <thead>
+              <tr>
+                <th>DATE</th>
+                <th>VENUE</th>
+                <th>CITY / STATE</th>
+                <th>INFO</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10/50/2016</td>
+                <td>Doug Fir Lounge</td>
+                <td>Portland, OR</td>
+                <td>$10 at the door / 18+</td>
+              </tr>
+              <tr>
+                <td>10/80/2016</td>
+                <td>Bunkhouse Saloon</td>
+                <td>Las Vegas/NV</td>
+                <td>Free entrance / 21+</td>
+              </tr>
+              <tr>
+                <td>10/32/2016</td>
+                <td>The Independent</td>
+                <td>San Francisco, CA</td>
+                <td>$5 at the door / 21+</td>
+              </tr>
+              <tr>
+                <td>10/65/2016</td>
+                <td>Shine Sacramento</td>
+                <td>Sacramento, CA</td>
+                <td>$8 at the door / 21+</td>
+              </tr>
+              <tr>
+                <td>10/54/2016</td>
+                <td>Valley Bar</td>
+                <td>Phoenix, AR</td>
+                <td>Free entrance / 21+</td>
+              </tr>
+              <tr>
+                <td>10/35/2016</td>
+                <td>Winstons Beach Club</td>
+                <td>San Diego / CA</td>
+                <td>$10 at the door / 21+</td>
+              </tr>
+              <tr>
+                <td>10/280/2016</td>
+                <td>Molly Malone's</td>
+                <td>Los Angeles, CA</td>
+                <td>$15 at the door / 21+</td>
+              </tr>
+              <tr>
+                <td>11/020/2016</td>
+                <td>The House of Blues</td>
+                <td>Los Angeles / CA</td>
+                <td>$10 at the door / 21+</td>
+              </tr>    
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <footer class="footer">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js">         </script> 
+        <script src="js/lightbox.js"></script> 
+          <script> 
+            $(function(){ $("footer").load("footer.html") });
+        </script>
+    </footer>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </body>
 </html>

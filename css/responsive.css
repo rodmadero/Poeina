@@ -7,11 +7,18 @@
     
     .navbar-collapse {
     text-align: center;
-    background-color:#fff;
+    background-color: #fff;
+    
+    
     }
     
     .navbar-nav li a {
-        border-bottom: 1px solid #eee;
+        margin: 0 auto;
+        border-bottom: 1px dotted #fa587c;
+        width: 280px;
+        font-family: 'Shadows into light', sans-serif;
+        font-size: 25px;
+        padding: 5px 0;
     }
     
      .navbar-nav {
@@ -21,13 +28,17 @@
     .form-group {
     max-width: 290px;
     margin: 0 auto;
-    }
-    
+    }  
 }
+    
+
 
 @media screen and (max-width : 481px) {
     
     .section-four {
         margin-top: 50px;
     }
+}
+
+
 }

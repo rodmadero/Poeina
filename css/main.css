@@ -13,11 +13,14 @@ a {
 
 img {
   max-width: 100%;
-    clear:both;
 }
 
 li {
     list-style: none;
+}
+
+p {
+    padding-top: 23px;
 }
 
 /***********************
@@ -43,6 +46,9 @@ NAVBAR
     text-shadow: -0.5px 1px 1px #ccc;
     transition: 0.3s ease;
 }
+
+
+
 
 /***********************
 BUTTONS
@@ -97,7 +103,7 @@ SUB HEADING EMAIL FORM
 .sub-heading {
     background-color: black;
     padding: 12px 0;
-    border-bottom: 2px solid #fa587c;
+/*    border-bottom: 2px solid #fa587c;*/
     
     
     
@@ -143,7 +149,7 @@ JUMBOTRON-TWO
 .jumbo-two {
     position: relative;
     background: url('../img/poitunes.jpg') no-repeat center center;
-    min-height: 400px;
+    min-height: 610px;
     background-size: cover;
     background-attachment: fixed;
     
@@ -160,7 +166,7 @@ JUMBOTRON-TWO
     margin-right: 50px;
     border: 2px solid #fa587c;
     text-align: center;
-    margin-top: 32px;
+    margin-top: 200px;
     transition: 1s ease;
 }
 
@@ -170,6 +176,10 @@ JUMBOTRON-TWO
     transition: .6s ease;
 }
 
+.itunes-text a:hover {
+    text-decoration: none;
+}
+
 h3 {
     font-family: 'Raleway', sans-serif;
 }
@@ -177,6 +187,75 @@ h3 {
 #happy-whore {
     font-family: 'Shadows into light', sans-serif;
 }
+
+/***********************
+SUB-HEADING-BIO
+***********************/
+
+.bio-text {
+    margin: 70px auto;
+    max-width: 980px;
+}
+
+.sub-heading-bio {
+    margin: 60px auto;
+    font-family: 'Josefin sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 100;
+}
+
+.sub-heading-bio a {
+    color: #009bff;
+}
+
+.sub-heading-bio a:hover {
+    text-decoration: none;
+    color: rgba(0, 155, 255, 0.7);
+}
+
+
+.border {
+    display: block;
+    width: 422px;
+    height: 1px;
+    background: #060606;
+    margin: 0 auto;
+}
+
+/***********************
+TOUR
+***********************/
+.table-responsive {
+    border: none;
+}
+
+.table-tour {
+     position: relative;
+    background: url('../img/texture2.jpg') no-repeat center center;
+    
+    min-height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+
+
+.table {
+    max-width: 800px;
+    margin: 60px auto 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    
+}
+
+.table-tour h1 {
+   color: #333;
+   padding-top: 50px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 3.4rem;
+}
+
 
 
 
@@ -188,6 +267,8 @@ FOOTER
     background: #000;
     padding: 10px 0;
     height: 100%;
+    min-height: 86px;
+    max-height: 120px;
 }
 
 .footer a {
@@ -209,7 +290,30 @@ FOOTER
     #tuned {
         padding: 0;
     }
+    
+    .border {
+        width: 80px;
+    }
+    
+    .jumbo-one {
+        max-height: 200px;
+        background-attachment: inherit;
+        
+    }
+    
+    .jumbo-two {
+        background-attachment: inherit;
+    }
+    
 }
+
+@media screen and (max-width : 376px) {
+    .footer a {
+        padding: 0px;
+    }
+    
+    
+    
 
 
 
