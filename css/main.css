@@ -286,7 +286,7 @@ FOOTER
     transition: all .5s ease;
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 769px) {
     #tuned {
         padding: 0;
     }
